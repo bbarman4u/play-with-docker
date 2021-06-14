@@ -9,7 +9,7 @@ A live version is available at: http://play-with-docker.com/
 
 Notes:
 
-* There is a hard-coded limit to 5 Docker playgrounds per session. After 4 hours sessions are deleted on the live hosted site. On Self hosted sites, it expires in 24 hours.
+* There is a hard-coded limit to 5 Docker playgrounds per session. After 4 hours sessions are deleted on the live hosted site. On Self hosted sites, expiration can be configurable.
 * Only http, https, websocket and SSH connections are allowed.
 * If you want to override the DIND version or image then set the environmental variable i.e.
   `DIND_IMAGE=franela/docker<version>-rc:dind`. Take into account that you can't use standard `dind` images, only [franela](https://hub.docker.com/r/franela/) ones work.
