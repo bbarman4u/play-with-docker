@@ -5,6 +5,11 @@ where you can build and run Docker containers and even create clusters with Dock
 
 Under the hood DIND or Docker-in-Docker is used to give the effect of multiple VMs/PCs.
 
+There are 3 main services of the stack:
+  - HaProxy - This will route the traffic to the richt container
+  - PWD - This is the 'main' engine as this serves the viewer and you use it to start the instances
+  - l2 - A routing container. This is used for exposing external services to route it to the right container.
+ 
 A live version is available at: http://play-with-docker.com/
 
 Notes:
